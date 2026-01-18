@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
 html {
      background: #FFF;
      background-size: cover;
@@ -28,6 +37,12 @@ html {
        inset 0 0 0 3px #EFEFEF,
        inset 0 0 10px black,
        0 0 10px rgba(0,0,0,0.2); */
+   }
+
+   .class-title {
+     font-size: 44px;
+     letter-spacing: 1px;
+     color: #000;
    }
 
    .clock-face {
