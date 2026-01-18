@@ -10,18 +10,20 @@
 html {
      background: #FFF;
      background-size: cover;
-     font-family: 'helvetica neue';
      text-align: center;
      font-size: 10px;
    }
 
    body {
-     margin: 0;
      font-size: 2rem;
-     /* display: flex; */
-     flex: 1;
      min-height: 100vh;
      align-items: center;
+     margin: auto;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
    }
 
    .clock {
