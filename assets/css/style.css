@@ -18,7 +18,7 @@ html {
    body {
      margin: 0;
      font-size: 2rem;
-     display: flex;
+     /* display: flex; */
      flex: 1;
      min-height: 100vh;
      align-items: center;
@@ -39,9 +39,9 @@ html {
        0 0 10px rgba(0,0,0,0.2); */
    }
 
-   .class-title {
-     font-size: 44px;
-     letter-spacing: 1px;
+   .clock-title {
+     font-size: 100px;
+     letter-spacing: -0.9px;
      color: #000;
    }
 
