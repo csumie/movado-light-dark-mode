@@ -14,3 +14,9 @@ $(".btn-group > .btn").click(function(){
   $(".btn-group > .btn").removeClass("active");
   $(this).addClass("active");
 });
+
+
+const btn = document.getElementById('theme-toggle');
+btn.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+});
