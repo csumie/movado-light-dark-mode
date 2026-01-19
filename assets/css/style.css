@@ -69,6 +69,33 @@ body {
  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
+/*----- Light Mode Clock -----*/
+.light-mode .clock {
+  border-color: #000;
+}
+
+.light-mode .clock-title {
+  color: #000;
+}
+
+.light-mode .hand {
+  background: #000;
+}
+
+/*----- Dark Mode Clock -----*/
+.dark-mode .clock {
+  border-color: #fff;
+}
+
+.dark-mode .clock-title {
+  color: #fff;
+}
+
+.dark-mode .hand {
+  background: #fff;
+}
+
+
 /*----- Light/Dark Mode Button -----*/
 
  .btn-group {
