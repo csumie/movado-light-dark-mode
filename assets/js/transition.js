@@ -1,11 +1,11 @@
 function toggleLight() {
-  var body = document.getElementById("body");
+  var body = document.getElementById("button-layout");
   var currentClass = body.className;
   body.className = currentClass == "dark-mode" ? "light-mode" : "light-mode";
 }
 
 function toggleDark() {
-  var body = document.getElementById("body");
+  var body = document.getElementById("button-layout");
   var currentClass = body.className;
   body.className = currentClass == "light-mode" ? "dark-mode" : "dark-mode";
 }
