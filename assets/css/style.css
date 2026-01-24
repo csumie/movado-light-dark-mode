@@ -1,12 +1,18 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-/*==================== FONT STYLES ====================*/
+/*==================== COLORS ====================*/
 :root {
+  --first-color: #FFFFFF;
+  --second-color: #000000;
+
+/*==================== FONT STYLES ====================*/
+
   --body-font: "Poppins", sans-serif;
   --h1-font-size: 6.25rem;
   --h2-font-size: 2rem;
   --h3-font-size: 1rem;
+  --font-light: 200;
 }
 
 
