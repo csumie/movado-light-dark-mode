@@ -37,7 +37,6 @@ html {
 
 body {
  background: #FFF;
- color: #000;
  min-height: 50vh;
  align-items: center;
  margin: auto;
@@ -69,8 +68,8 @@ body {
  font-family: var(--body-font);
  font-weight: var(--font-light);
  font-size: var(--h1-font-size);
- letter-spacing: -0.9px;
- color: #000;
+ color: var(--second-color);
+ letter-spacing: 2px;
 }
 
 .clock-face {
@@ -99,15 +98,15 @@ body {
 /*==================== Light Mode Clock ====================*/
 
 .light-mode .clock {
-  border-color: #000;
+  border-color: var(--second-color);
 }
 
 .light-mode .clock-title {
-  color: #000;
+  color: var(--second-color);
 }
 
 .light-mode .hand {
-  background: #000;
+  background: var(--second-color);
 }
 
 /*==================== Dark Mode Clock ====================*/
