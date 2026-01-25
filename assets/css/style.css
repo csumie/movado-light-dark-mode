@@ -66,6 +66,7 @@ body {
 }
 
 .clock-title {
+ font-family: var(--body-font);
  font-size: 100px;
  letter-spacing: -0.9px;
  color: #000;
@@ -94,7 +95,8 @@ body {
   height: 2px;
 }
 
-/*----- Light Mode Clock -----*/
+/*==================== Light Mode Clock ====================*/
+
 .light-mode .clock {
   border-color: #000;
 }
@@ -107,7 +109,8 @@ body {
   background: #000;
 }
 
-/*----- Dark Mode Clock -----*/
+/*==================== Dark Mode Clock ====================*/
+
 .dark-mode .clock {
   border-color: #fff;
 }
@@ -120,15 +123,15 @@ body {
   background: #fff;
 }
 
-/*----- Button Assets -----*/
+/*==================== Button Assets ====================*/
 
 .button-text {
   font-size: 2rem;
 }
 
-/*----- Light/Dark Mode Button -----*/
+/*==================== Light/Dark Mode Button ====================*/
 
- .btn-group {
+.btn-group {
  	border-radius: 100px;
  }
 
@@ -153,7 +156,7 @@ body {
  	box-shadow: none;
  }
 
- /*----- Light/Dark Mode Function -----*/
+ /*==================== Light/Dark Mode Function ====================*/
 
  .light-mode {
  	background-color: #fff;
