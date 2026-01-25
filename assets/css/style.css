@@ -25,12 +25,6 @@
 
 /*==================== BASE ====================*/
 
-/* .poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-} */
-
 html {
  background-size: cover;
  text-align: center;
@@ -114,15 +108,15 @@ body {
 /*==================== Dark Mode Clock ====================*/
 
 .dark-mode .clock {
-  border-color: #fff;
+  border-color: var(--first-color);
 }
 
 .dark-mode .clock-title {
-  color: #fff;
+  color: var(--first-color);
 }
 
 .dark-mode .hand {
-  background: #fff;
+  background: var(--first-color);
 }
 
 /*==================== Button Assets ====================*/
