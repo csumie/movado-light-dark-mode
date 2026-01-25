@@ -78,7 +78,7 @@ body {
 .hand {
  width: 50%;
  height: 6px;
- background: #000;
+ background: var(--second-color);
  position: absolute;
  top: 50%;
  transform-origin: 100%;
@@ -190,8 +190,8 @@ body {
  }
 
  .dark-mode .btn {
- 	background: #444;
- 	color: #fff;
+ 	background: var(--seventh-color);
+ 	color: var(--first-color);
  }
 
  .dark-mode .button-text {
