@@ -170,7 +170,7 @@ body {
 
  .light-mode .btn {
  	background: #ccc;
- 	color: #444;
+ 	color: var(--seventh-color);
  }
 
  .light-mode .btn:hover,
@@ -200,7 +200,7 @@ body {
 
  .dark-mode .btn:hover,
  .dark-mode .btn:active {
- 	background-color: #333;
+ 	background-color: var(--sixth-color);
  }
 
  .btn.active {
