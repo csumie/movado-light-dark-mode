@@ -18,16 +18,18 @@
   --h2-font-size: 2rem;
   --h3-font-size: 1rem;
   --body-font: 0.625rem;
+  --font-medium: 300;
   --font-light: 200;
+  --font-extra-light: 100;
 }
 
 /*==================== BASE ====================*/
 
-.poppins-extralight {
+/* .poppins-extralight {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
-  /* font-style: normal; */
-}
+  font-style: normal;
+} */
 
 html {
  background-size: cover;
@@ -66,7 +68,7 @@ body {
 
 .clock-title {
  font-family: var(--body-font);
- font-weight: var(--font-light);
+ font-weight: var(--font-extra-light);
  font-size: var(--h1-font-size);
  color: var(--second-color);
  letter-spacing: 2px;
@@ -126,7 +128,10 @@ body {
 /*==================== Button Assets ====================*/
 
 .button-text {
-  font-size: 2rem;
+  font-family: var(--body-font);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-light);
+  color: var(--second-color);
 }
 
 /*==================== Light/Dark Mode Button ====================*/
@@ -159,8 +164,8 @@ body {
  /*==================== Light/Dark Mode Function ====================*/
 
  .light-mode {
- 	background-color: #fff;
- 	color: #000;
+ 	background-color: var(--first-color);
+ 	color: var(--second-color);
  	transition: all 0.5s ease;
  }
 
@@ -180,7 +185,7 @@ body {
  }
 
  .dark-mode {
- 	background-color: #000;
+ 	background-color: var(--second-color);
  	color: #eee;
  	transition: all 0.5s ease;
  }
@@ -193,6 +198,10 @@ body {
  .dark-mode .btn {
  	background: #444;
  	color: #fff;
+ }
+
+ .dark-mode .button-text {
+   color: var(--first-color);
  }
 
  .dark-mode .btn:hover,
