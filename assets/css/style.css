@@ -182,7 +182,7 @@ body {
 
  .dark-mode {
  	background-color: var(--second-color);
- 	color: #eee;
+ 	color: var(--fifth-color);
  	transition: all 0.5s ease;
  }
 
