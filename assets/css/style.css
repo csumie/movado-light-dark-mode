@@ -177,7 +177,7 @@ body {
 
  .light-mode .btn:hover,
  .light-mode .btn:active {
- 	background-color: #bbb;
+ 	background-color: var(--third-color);
  }
 
  .dark-mode {
