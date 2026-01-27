@@ -23,7 +23,7 @@
   --font-extra-light: 100;
 }
 
-/*==================== RESPONSIVE: ROOT; ================*/
+/*==================== RESPONSIVE ROOT ================*/
 
 @media screen and (min-width: 750px) {
     :root {
