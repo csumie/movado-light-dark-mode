@@ -14,10 +14,10 @@
 /*==================== FONT STYLES ====================*/
 
   --body-font: "Poppins", sans-serif;
+  --body-font-size: 0.625rem;
   --h1-font-size: 10rem;
   --h2-font-size: 2rem;
   --h3-font-size: 1rem;
-  --body-font: 0.625rem;
   --font-medium: 300;
   --font-light: 200;
   --font-extra-light: 100;
@@ -28,7 +28,8 @@
 html {
  background-size: cover;
  text-align: center;
- font-size: var(--body-font);
+ font-size: var(--body-font-size);
+ font-weight: var(--font-extra-light);
 }
 
 body {
@@ -55,11 +56,6 @@ body {
  margin: 50px auto;
  position: relative;
  padding: 2rem;
- /* box-shadow:
-   0 0 0 4px rgba(0,0,0,0.1),
-   inset 0 0 0 3px #EFEFEF,
-   inset 0 0 10px black,
-   0 0 10px rgba(0,0,0,0.2); */
 }
 
 .clock-title {
@@ -67,7 +63,7 @@ body {
  font-weight: var(--font-extra-light);
  font-size: var(--h1-font-size);
  color: var(--second-color);
- letter-spacing: 2px;
+ letter-spacing: 0.5px;
 }
 
 .clock-face {
