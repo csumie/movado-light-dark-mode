@@ -31,6 +31,12 @@
     }
 }
 
+@media screen and (min-width: 550px) {
+    :root {
+       --body-font-size: 1.2rem;
+    }
+}
+
 /*==================== BASE ====================*/
 
 html {
