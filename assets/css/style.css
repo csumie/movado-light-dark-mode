@@ -1,4 +1,4 @@
-/*==================== GOOGLE FONTS ====================*/
+/*==================== GOOGLE FONT ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 /*==================== COLORS ====================*/
@@ -159,7 +159,7 @@ body {
  	box-shadow: none;
  }
 
- /*==================== Light/Dark Mode Function ====================*/
+ /*==================== Button Toggle ====================*/
 
  .light-mode {
  	background-color: var(--first-color);
